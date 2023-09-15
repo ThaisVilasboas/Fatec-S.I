@@ -1,17 +1,18 @@
-Algoritmo "semnome"
+Algoritmo "exercicio 4"
 //  
 //  
-// Descrição   : Aqui você descreve o que o programa faz! (função)
-// Autor(a)    : Nome do(a) aluno(a)
+// DescriÃ§Ã£o   : Calcular o valor a ser pago de energia elÃ©trica sabendo-se que o valor a pagar por quilowatt Ã© de R$0,12
+//                 apresentar o valor total a ser pago pelo usuÃ¡rio acrescido de 18% de ICMS.
+// Autor(a)    : Thais Vilasboas
 // Data atual  : 14/09/2023
 Var
-// Seção de Declarações das variáveis 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis 
    valorTotalAserPago, valorDoQuiloWatt,quiloWatt: Real
 
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
-escreva(" Digite o valor dá media de kWh consumida: ")
+// SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc... 
+escreva(" Digite o valor dÃ¡ media de kWh consumida: ")
        leia(valorDoQuiloWatt)
        quiloWatt <- 1.2
        valorTotalAserPago <- valorDoQuiloWatt * quiloWatt
