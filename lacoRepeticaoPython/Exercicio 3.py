@@ -21,6 +21,6 @@ while contador <= quantPessoas:
     
     contador = contador + 1
     
-print("A Qauntidade de pessoas magras é: ", magro )
+print("A Quantidade de pessoas magras é: ", magro )
 print("A Qauntidade de pessoas normais é: ", normal )
 print("A Qauntidade de pessoas gordas é: ", gordo )
